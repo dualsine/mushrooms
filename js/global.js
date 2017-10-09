@@ -4,8 +4,9 @@
     bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
   $(function() {
+    var graphics;
     document.getElementById('loading').className = 'show';
-    window.graphics = new Graphics();
+    graphics = new Graphics();
   });
 
   Graphics = (function() {

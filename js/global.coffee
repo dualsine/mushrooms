@@ -51,7 +51,7 @@ class Graphics
     window.addEventListener 'resize', =>
       @resize()
     , false
-/
+
     @render()
     return
 
